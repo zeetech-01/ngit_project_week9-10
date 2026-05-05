@@ -1,0 +1,29 @@
+# Glowify Skincare Website 
+
+Glowify is a modern skincare brand website built using HTML, CSS, and Bootstrap. It is designed to showcase beauty products, provide company information, and allow users to get in touch easily.
+
+---
+
+##  Project Features
+
+- Responsive homepage design
+- About Us page with brand story
+- Product listing page (grid layout)
+- Contact page with form and contact info overlay
+- Google Maps integration (location display)
+- Instagram-style image hover gallery
+- Newsletter subscription section
+- Mobile-friendly design
+
+---
+
+##  Built With
+
+- HTML5
+- CSS3
+- Bootstrap 5
+- Bootstrap Icons
+
+---
+
+##  Folder Structure

@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Glowelle</title>
+
+   <!-- css link -->
+    <link rel="stylesheet" href="./style.css">
+
+    <!-- Bootsrap CDN Link -->
+    <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+
+    <!-- bootstap icon -->
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+     
+</head>
+<body>
+   <nav class="navbar navbar-expand-lg navbar-transparent py-3">
+  <div class="container">
+
+    <!-- LOGO -->
+    <a class="navbar-brand fw-semibold" href="#">Glowelle</a>
+
+    <!-- TOGGLER (mobile) -->
+   <button class="navbar-toggler" type="button"
+data-bs-toggle="collapse"
+data-bs-target="#navbarNav">
+
+  <span class="custom-toggler"></span>
+
+  </button>
+
+    <!-- NAV CONTENT -->
+    <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
+
+      
+      <ul class="navbar-nav mx-auto gap-4">
+
+        <li class="nav-item">
+          <a class="nav-link active" href="index.html">Home</a>
+        </li>
+
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+
+        <!-- DROPDOWN -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="product.html"
+             data-bs-toggle="dropdown">
+            Shop
+          </a>
+
+          <ul class="dropdown-menu border-0 shadow-sm">
+            <li><a class="dropdown-item" href="product.html">Skincare</a></li>
+            <li><a class="dropdown-item" href="#">Makeup</a></li>
+            <li><a class="dropdown-item" href="#">Fragrance</a></li>
+          </ul>
+        </li>
+
+      </ul>
+
+      <!-- RIGHT ICONS -->
+      <div class="d-flex gap-4 fs-5">
+        <i class="bi bi-search"></i>
+        <i class="bi bi-person"></i>
+        <i class="bi bi-bag"></i>
+      </div>
+
+    </div>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="contact-hero">
+  <div class="hero-content">
+    <h1>Contact Us</h1>
+    <p>
+      <a href="index.html">Home</a> / Contact
+    </p>
+  </div>
+</section>
+
+<!-- CONTACT SECTION -->
+<section class="py-5">
+  <div class="container">
+    <div class="row g-5">
+
+      <!-- FORM -->
+      <div class=" form-input col-12 col-lg-7 py-5 mt-4" style="margin-top: 80px !important;">
+        <h2 class="fw-bold">GET IN TOUCH</h2>
+        <p class="text-muted">
+          Have a question? Send us a message.
+        </p>
+
+        <form>
+          <input class="form-control mb-3" placeholder="Name" required>
+          <input class="form-control mb-3" placeholder="Email" required>
+          <input class="form-control mb-3" placeholder="Subject" required>
+          <textarea class="form-control mb-3" rows="5" placeholder="Message" required></textarea>
+
+          <button class="contact-btn btn-dark px-4 py-2">SEND MESSAGE</button>
+        </form>
+      </div>
+
+      <!-- CONTACT INFO IMAGE -->
+      <div class="col-12 col-lg-5 py-4">
+        <div class="contact-box ">
+
+          <img src="./img/contact-img/open-lipstick.jpg" alt="contact">
+
+          <div class="contact-overlay">
+
+            <h3>CONTACT INFORMATION</h3>
+            <p>Reach us directly</p>
+
+            <div class="contact-item d-flex " style="gap: 30px;">
+              <i class="bi bi-headset"></i>
+              <div class="contact-context">
+                <h6>Support</h6>
+              <small>support@glowify.com</small>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <i class="bi bi-briefcase"></i>
+              <div class="contact-context">
+                <h6>Sales</h6>
+                <small>sales@glowify.com</small>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <i class="bi bi-telephone"></i>
+               <div class="contact-context">
+                    <h6>Phone</h6>
+                   <small>+234 800 000 0000</small>
+               </div>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- MAP -->
+<section class="py-5">
+  <div class="container text-center mb-4">
+    <h2 class="fw-bold" style="text-transform: uppercase;">Find Us Here</h2>
+  </div>
+
+  <div class="container">
+    <div class="ratio ratio-16x9 rounded-4 overflow-hidden">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d127000.000000!2d3.3792!3d6.5244"
+        style="border:0;"
+        allowfullscreen=""
+        loading="lazy">
+      </iframe><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d126840.73496590224!2d3.3587199999999995!3d6.5503232!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sng!4v1777697662314!5m2!1sen!2sng" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </div>
+</section>
+
+<!-- INSTAGRAM GALLERY -->
+<section class="py-5 bg-light">
+  <div class="container text-center mb-4">
+    <h2 class="fw-bold">Follow Us on Instagram</h2>
+    <p class="text-muted">@glowelle</p>
+  </div>
+
+  <div class="container">
+    <div class="row g-3">
+
+      <div class="col-6 col-lg-3">
+        <div class="insta-box">
+          <img src="./img/about-img/woman-holding-white-cosmetic-tube-with-closed-eyes.jpg">
+          <a href="https://instagram.com" target="_blank" class="insta-overlay">
+            <i class="bi bi-instagram"></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="col-6 col-lg-3">
+        <div class="insta-box">
+          <img src="./img/promo-section/download (4).webp">
+          <a href="https://instagram.com" target="_blank" class="insta-overlay">
+            <i class="bi bi-instagram"></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="col-6 col-lg-3">
+        <div class="insta-box">
+          <img src="./img/hero-img/portrait-beautiful-woman-removing-her-make-up-with-tissue.jpg">
+          <a href="https://instagram.com" target="_blank" class="insta-overlay">
+            <i class="bi bi-instagram"></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="col-6 col-lg-3">
+        <div class="insta-box">
+          <img src="./img/hero-img/portrait-young-beautiful-woman-with-beauty-serum.jpg">
+          <a href="https://instagram.com" target="_blank" class="insta-overlay">
+            <i class="bi bi-instagram"></i>
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+ <!-- Footer Section -->
+<footer class="footer-section py-5 mt-5" style="background-color: rgb(108, 108, 108);">
+  <div class="container" >
+
+    <!-- Logo -->
+    <div class="text-center mb-5" >
+      <h2 class="footer-logo fw-bold m-0 text-white">
+        <span>Glowelle</span>
+      </h2>
+    </div>
+
+    <!-- Footer Columns -->
+    <div class="row gy-5">
+
+      <!-- Contact -->
+      <div class="col-12 col-sm-6 col-lg">
+        <h5 class="footer-title text-white">CONTACT INFORMATION</h5>
+
+        <ul class="list-unstyled footer-links text-white">
+          <li><i class="bi bi-telephone-fill me-2"></i> +(234) 123-4567</li>
+          <li><i class="bi bi-envelope-fill me-2"></i> cs@glowelle.com</li>
+          <li><i class="bi bi-geo-alt-fill me-2"></i> 123 Anywhere Street, Anytown Nigeria</li>
+        </ul>
+      </div>
+
+      <!-- Account -->
+      <div class="col-6 col-sm-6 col-lg">
+        <h5 class="footer-title text-white">MY ACCOUNT</h5>
+
+        <ul class="list-unstyled footer-links text-white">
+          <li><a href="#">Sign In</a></li>
+          <li><a href="#">New Bag</a></li>
+          <li><a href="#">My Wishlist</a></li>
+          <li><a href="#">Track My Order</a></li>
+          <li><a href="#">Help</a></li>
+        </ul>
+      </div>
+
+      <!-- Information -->
+      <div class="col-6 col-sm-6 col-lg">
+        <h5 class="footer-title text-white">INFORMATION</h5>
+
+        <ul class="list-unstyled footer-links">
+          <li><a href="#">Delivery Information</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">FAQ</a></li>
+          <li><a href="#">Contact Us</a></li>
+          <li><a href="#">Sitemap</a></li>
+        </ul>
+      </div>
+
+      <!-- Customer -->
+      <div class="col-6 col-sm-6 col-lg">
+        <h5 class="footer-title text-white">CUSTOMER SERVICES</h5>
+
+        <ul class="list-unstyled footer-links">
+          <li><a href="#">Shipping & Returns</a></li>
+          <li><a href="#">Secure Shopping</a></li>
+          <li><a href="#">International Shipping</a></li>
+          <li><a href="#">Affiliates</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+
+      <!-- Payment -->
+      <div class="col-6 col-sm-6 col-lg">
+        <h5 class="footer-title text-white">PAYMENT & SHIPPING</h5>
+
+        <ul class="list-unstyled footer-links">
+          <li><a href="#">Terms of Us</a></li>
+          <li><a href="#">Payment Methods</a></li>
+          <li><a href="#">Shipping Guide</a></li>
+          <li><a href="#">Locations We Ship To</a></li>
+          <li><a href="#">Estimated Delivery Time</a></li>
+        </ul>
+      </div>
+
+    </div>
+
+    <!-- Bottom -->
+    <div class="footer-bottom text-center mt-3 pt-3">
+      <a href="#">Privacy Policy</a>
+      <span class="mx-3">|</span>
+      <a href="#">Terms & Condition</a>
+    </div>
+
+  </div>
+</footer>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
